@@ -1,133 +1,201 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pr-br">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabela</title>
+    <link rel="stylesheet" href="index.css">
     <style>
-        table,
-        tr,
-        td,
-        th {
-            border: 1px solid black;
+        body {
+            margin: 0;
+            background-color: rgb(255, 255, 255);
         }
+
+
+        header {
+            height: 100px;
+            background-color: rgb(0, 0, 0);
+            color: whitesmoke;
+            font-size: 70px;
+            text-align: center;
+        }
+
+
+        table,th,td {
+            border: 1px solid rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+
+
+        th {
+            background-color: rgb(39, 39, 39);
+            padding: 5px;
+        }
+
 
         td {
-            width: 100px;
+            background-color: rgb(73, 73, 73);
+            text-align: center;
         }
 
-        th {
-            width: 500px;
+
+        .tabela {
+            margin-left: 515px;
+            margin-top: 80px;
         }
     </style>
 </head>
 
 <body>
-    <p>ifc - campus araquari</p>
-    <table>
-        <tr>
-            <td rowspan="2"></td>
-            <th colspan="6">1INFO2</th>
-        </tr>
-        <tr>
-            <td>Seg</td>
-            <td>Ter</td>
-            <td>Qua</td>
-            <td>Qui</td>
-            <td>Sex</td>
-            <td>Sab</td>
-        </tr>
-        <tr>
-            <td>1 aula</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>2 aula</td>
-            <td>Lingua Portuguesa
-                Valéria
-                E206
-            </td>
-            <td>
-                Intr. Comp.
-                Daniel Santos
-                A11
-            </td>
-            <td>
-                Biologia
-                Héder
-                E206
-            </td>
-            <td>
-                Fabio Moura
-                B3
+    <header>Grade horária escolar</header>
+    <div class="tabela">
+        <table>
+            <tr>
+                <th></th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sabado</th>
+            </tr>
+            <tr>
+                <td>Aula 1M</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 2M</td>
+                <td>Lingua Portuguesa <br> Valeria <br> E206</td>
+                <td>Introduçao computaçao <br> Daniel Santos <br> A11</td>
+                <td>Biologia <br> Héder <br> E206</td>
+                <td>Programação <br> Fabio Moura <br> B3</td>
+                <td>Ed. Fisica <br> Marcio Souza<br> Ginasio</td>
+                <td>-</td>
 
-            </td>
-            <td>
-                Ed Fisica
-                Marcio Souza
-                Ginásio</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>intervalo M</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>3 aula</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>4 aula</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>5 aula</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>6 aula</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-        <tr>
-            <td>almoço</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-            <td>------</td>
-        </tr>
-    </table>
+
+
+
+            </tr>
+            <tr>
+                <td>Aula 3M</td>
+                <td>Lingua Portuguesa <br> Valeria <br> E206</td>
+                <td>Introduçao computaçao <br> Daniel Santos <br> A11</td>
+                <td>Biologia <br> Héder <br> E206</td>
+                <td>Programação <br> Fabio Moura <br> B3</td>
+                <td>Ed. Fisica <br> Marcio Souza<br> Ginasio</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Intervalo M</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 4M</td>
+                <td>Lingua Portuguesa <br> Valeria <br> E206</td>
+                <td>Matematica <br> Vanessa Neves <br> E206</td>
+                <td>Programação <br> Fabio Moura <br> B3</td>
+                <td>Historia <br> Ivan Furman <br> E206</td>
+                <td>Quimica <br> Iglesias <br> E206</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 5M</td>
+                <td>Geografia <br> Paulo <br> E206</td>
+                <td>Artes <br> Isaqueline <br> Sala_Artes</td>
+                <td>Programação <br> Fabio Moura <br> B3</td>
+                <td>Historia <br> Ivan Furman <br> E206</td>
+                <td>Quimica <br> Iglesias <br> E206</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 6M</td>
+                <td>Geografia <br> Paulo <br> E206</td>
+                <td>Artes <br> Isaqueline <br> Sala_Artes</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Almoço</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 1V</td>
+                <td>-</td>
+                <td>-</td>
+                <td>Desenvolvimento web <br> Orlando <br> B3</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 2V</td>
+                <td>Projeto integrador <br> Nayloy <br> A11</td>
+                </td>
+                <td>CLIFC <br> E206</td>
+                <td>Desenvolvimento web <br> Orlando <br> B3</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 3V</td>
+                <td>Projeto integrador <br> Nayloy <br> A11</td>
+                </td>
+                <td>CLIFC <br> E206</td>
+                <td>Desenvolvimento web <br> Orlando <br> B3</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Intervalo V</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 4V</td>
+                <td>Ingles <br> E206</td>
+                <td>Fisica <br> Marcelo Salvador <br> E206</td>
+                <td>Matematica <br> Vanessa Neves <br> E206</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Aula 5V</td>
+                <td>Ingles <br> E206</td>
+                <td>Fisica <br> Marcelo Salvador <br> E206</td>
+                <td>Matematica <br> Vanessa Neves <br> E206</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </table>
+    </div>
 </body>
+
 
 </html>
